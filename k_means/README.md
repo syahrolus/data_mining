@@ -2,7 +2,9 @@
 Program Clustering menggunakan algortima K-Means
 
 Hasil :
-- Program ini mampu mengubah nilai K (cluster)
+- Dapat mengubah jumlah K (cluster)
+- Menampilkan proses perhitungan
+- Menampilkan proses dan hasil dengan grafik / grafik dinamik
 
 Kekurangan :
-- Belum terprogram untuk fitur selain 3 fitur
+- Belum terprogram untuk fitur selain 3 fitur (hanya model 3D)
