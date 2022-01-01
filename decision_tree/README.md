@@ -24,4 +24,11 @@ thanks to https://www.kaggle.com/fedesoriano/stroke-prediction-dataset for the d
 ## running:
 
 1. first, you have to make sure to classify your attributes first (you can use `klasifikasi.py` and change them according to your needs), and change NaN (if any) to `other` attributes or other names manually.
-2. ```python3 klasifikasi.py``` 
+2. 
+```bash
+python3 klasifikasi.py
+``` 
+3. 
+```bash 
+python3 decision_tree.py
+```
