@@ -36,10 +36,13 @@ python3 decision_tree.py
 ## result:
 
 decision_tree.txt if you uncomment some comments in the main program (`decision_tree.py`)
+
 ![Decision Tree](image/decision_tree.png)
 
 hasil_prediksi.xlsx
+
 ![Prediction Result](image/hasil_rediksi.png)
 
 Error Calculating
+
 ![Error Result](image/error_calc.png)
