@@ -161,4 +161,4 @@ for i in range(len(df['stroke'])):
 		e+=1
 
 hitung = (e/len(df['stroke']))*100				# change stroke to your last column/result
-print(hitung)
+print(str(round(hitung,2))+'%')
