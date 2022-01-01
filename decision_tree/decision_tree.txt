@@ -1,0 +1,877 @@
+age
+   |__lansia->heart_disease
+      |__1->avg_glucose_level
+         |__tinggi->work_type
+            |__Private->gender
+               |__Male->smoking_status
+                  |__formerly smoked->bmi
+                     |__obese->ever_married
+                        |__Yes->hypertension
+                           |__0->YA
+                           |__1->TIDAK
+                        |__No->TIDAK
+                     |__healty weight->Residence_type
+                        |__Rural->YA
+                        |__Urban->TIDAK
+                     |__overweight->TIDAK
+                     |__lain->TIDAK
+                  |__never smoked->bmi
+                     |__obese->hypertension
+                        |__0->Residence_type
+                           |__Rural->TIDAK
+                           |__Urban->TIDAK
+                        |__1->TIDAK
+                     |__overweight->TIDAK
+                     |__healty weight->TIDAK
+                     |__lain->TIDAK
+                  |__Unknown->bmi
+                     |__lain->hypertension
+                        |__0->ever_married
+                           |__Yes->YA
+                     |__obese->hypertension
+                        |__0->ever_married
+                           |__Yes->TIDAK
+                        |__1->TIDAK
+                     |__overweight->TIDAK
+                  |__smokes->hypertension
+                     |__0->bmi
+                        |__obese->ever_married
+                           |__Yes->TIDAK
+                           |__No->TIDAK
+                        |__overweight->Residence_type
+                           |__Urban->YA
+                           |__Rural->TIDAK
+                        |__lain->TIDAK
+                     |__1->YA
+               |__Female->bmi
+                  |__overweight->smoking_status
+                     |__never smoked->Residence_type
+                        |__Urban->hypertension
+                           |__0->TIDAK
+                        |__Rural->hypertension
+                           |__0->TIDAK
+                     |__smokes->TIDAK
+                     |__formerly smoked->TIDAK
+                  |__obese->Residence_type
+                     |__Rural->smoking_status
+                        |__never smoked->hypertension
+                           |__0->TIDAK
+                        |__formerly smoked->TIDAK
+                        |__Unknown->TIDAK
+                        |__smokes->TIDAK
+                     |__Urban->smoking_status
+                        |__smokes->hypertension
+                           |__0->TIDAK
+                           |__1->YA
+                        |__Unknown->hypertension
+                           |__0->TIDAK
+                        |__formerly smoked->hypertension
+                           |__1->TIDAK
+                           |__0->TIDAK
+                        |__never smoked->TIDAK
+                  |__healty weight->TIDAK
+                  |__lain->TIDAK
+            |__Govt_job->bmi
+               |__obese->smoking_status
+                  |__smokes->YA
+                  |__never smoked->ever_married
+                     |__No->YA
+                     |__Yes->TIDAK
+                  |__formerly smoked->TIDAK
+                  |__Unknown->TIDAK
+               |__lain->ever_married
+                  |__No->YA
+                  |__Yes->TIDAK
+               |__overweight->Residence_type
+                  |__Rural->YA
+                  |__Urban->hypertension
+                     |__1->YA
+                     |__0->TIDAK
+               |__healty weight->TIDAK
+            |__Self-employed->Residence_type
+               |__Urban->smoking_status
+                  |__smokes->bmi
+                     |__overweight->YA
+                     |__lain->hypertension
+                        |__1->YA
+                        |__0->TIDAK
+                     |__obese->TIDAK
+                  |__formerly smoked->bmi
+                     |__obese->gender
+                        |__Male->hypertension
+                           |__0->TIDAK
+                        |__Female->TIDAK
+                     |__overweight->TIDAK
+                     |__lain->TIDAK
+                     |__healty weight->TIDAK
+                  |__Unknown->gender
+                     |__Female->YA
+                     |__Male->TIDAK
+                  |__never smoked->TIDAK
+               |__Rural->TIDAK
+         |__normal->ever_married
+            |__Yes->bmi
+               |__overweight->smoking_status
+                  |__never smoked->hypertension
+                     |__1->gender
+                        |__Male->work_type
+                           |__Private->TIDAK
+                        |__Female->TIDAK
+                     |__0->TIDAK
+                  |__Unknown->work_type
+                     |__Govt_job->YA
+                     |__Self-employed->TIDAK
+                     |__Private->TIDAK
+                  |__smokes->TIDAK
+                  |__formerly smoked->TIDAK
+               |__healty weight->smoking_status
+                  |__formerly smoked->Residence_type
+                     |__Rural->YA
+                     |__Urban->TIDAK
+                  |__Unknown->gender
+                     |__Female->YA
+                     |__Male->TIDAK
+                  |__smokes->gender
+                     |__Male->YA
+                     |__Female->TIDAK
+                  |__never smoked->TIDAK
+               |__obese->smoking_status
+                  |__formerly smoked->gender
+                     |__Female->hypertension
+                        |__0->YA
+                        |__1->TIDAK
+                     |__Male->TIDAK
+                  |__smokes->work_type
+                     |__Private->Residence_type
+                        |__Urban->YA
+                        |__Rural->TIDAK
+                     |__Self-employed->TIDAK
+                     |__Govt_job->TIDAK
+                  |__never smoked->TIDAK
+                  |__Unknown->TIDAK
+               |__lain->smoking_status
+                  |__smokes->gender
+                     |__Male->YA
+                     |__Female->TIDAK
+                  |__never smoked->TIDAK
+                  |__Unknown->TIDAK
+                  |__formerly smoked->TIDAK
+            |__No->gender
+               |__Female->smoking_status
+                  |__formerly smoked->YA
+                  |__never smoked->YA
+                  |__smokes->TIDAK
+                  |__Unknown->TIDAK
+               |__Male->TIDAK
+      |__0->work_type
+         |__Self-employed->hypertension
+            |__0->bmi
+               |__lain->smoking_status
+                  |__never smoked->gender
+                     |__Female->ever_married
+                        |__Yes->Residence_type
+                           |__Rural->TIDAK
+                        |__No->TIDAK
+                     |__Male->YA
+                  |__Unknown->gender
+                     |__Female->YA
+                     |__Male->TIDAK
+                  |__formerly smoked->avg_glucose_level
+                     |__tinggi->YA
+                     |__normal->gender
+                        |__Male->ever_married
+                           |__Yes->TIDAK
+                        |__Female->Residence_type
+                           |__Rural->TIDAK
+                           |__Urban->TIDAK
+                  |__smokes->TIDAK
+               |__overweight->Residence_type
+                  |__Urban->smoking_status
+                     |__never smoked->ever_married
+                        |__Yes->avg_glucose_level
+                           |__tinggi->TIDAK
+                           |__normal->TIDAK
+                        |__No->gender
+                           |__Male->YA
+                           |__Female->TIDAK
+                     |__smokes->avg_glucose_level
+                        |__normal->gender
+                           |__Male->TIDAK
+                           |__Female->TIDAK
+                        |__tinggi->TIDAK
+                     |__Unknown->avg_glucose_level
+                        |__tinggi->gender
+                           |__Male->TIDAK
+                           |__Female->TIDAK
+                        |__normal->TIDAK
+                     |__formerly smoked->TIDAK
+                  |__Rural->smoking_status
+                     |__never smoked->avg_glucose_level
+                        |__normal->gender
+                           |__Female->TIDAK
+                           |__Male->TIDAK
+                        |__tinggi->TIDAK
+                     |__formerly smoked->gender
+                        |__Female->avg_glucose_level
+                           |__normal->TIDAK
+                           |__tinggi->TIDAK
+                        |__Male->TIDAK
+                     |__Unknown->TIDAK
+                     |__smokes->TIDAK
+               |__healty weight->smoking_status
+                  |__never smoked->gender
+                     |__Male->avg_glucose_level
+                        |__tinggi->ever_married
+                           |__Yes->TIDAK
+                        |__normal->TIDAK
+                     |__Female->Residence_type
+                        |__Urban->avg_glucose_level
+                           |__normal->TIDAK
+                           |__tinggi->TIDAK
+                        |__Rural->TIDAK
+                  |__formerly smoked->gender
+                     |__Female->Residence_type
+                        |__Rural->avg_glucose_level
+                           |__normal->TIDAK
+                           |__tinggi->TIDAK
+                        |__Urban->TIDAK
+                     |__Male->Residence_type
+                        |__Urban->avg_glucose_level
+                           |__tinggi->TIDAK
+                           |__normal->TIDAK
+                        |__Rural->TIDAK
+                  |__Unknown->TIDAK
+                  |__smokes->TIDAK
+               |__obese->smoking_status
+                  |__never smoked->avg_glucose_level
+                     |__normal->Residence_type
+                        |__Urban->gender
+                           |__Male->TIDAK
+                           |__Female->TIDAK
+                        |__Rural->gender
+                           |__Male->TIDAK
+                           |__Female->TIDAK
+                     |__tinggi->Residence_type
+                        |__Rural->gender
+                           |__Female->TIDAK
+                           |__Male->TIDAK
+                        |__Urban->TIDAK
+                  |__smokes->Residence_type
+                     |__Rural->avg_glucose_level
+                        |__tinggi->gender
+                           |__Female->TIDAK
+                           |__Male->TIDAK
+                        |__normal->TIDAK
+                     |__Urban->TIDAK
+                  |__formerly smoked->avg_glucose_level
+                     |__tinggi->ever_married
+                        |__Yes->gender
+                           |__Female->TIDAK
+                           |__Male->TIDAK
+                        |__No->TIDAK
+                     |__normal->TIDAK
+                  |__Unknown->TIDAK
+               |__underwight->Residence_type
+                  |__Rural->avg_glucose_level
+                     |__normal->gender
+                        |__Female->ever_married
+                           |__Yes->TIDAK
+                     |__tinggi->TIDAK
+                  |__Urban->TIDAK
+            |__1->avg_glucose_level
+               |__tinggi->smoking_status
+                  |__never smoked->bmi
+                     |__healty weight->gender
+                        |__Female->ever_married
+                           |__Yes->TIDAK
+                     |__obese->Residence_type
+                        |__Rural->ever_married
+                           |__Yes->TIDAK
+                        |__Urban->gender
+                           |__Female->TIDAK
+                           |__Male->TIDAK
+                     |__overweight->gender
+                        |__Female->ever_married
+                           |__Yes->TIDAK
+                           |__No->TIDAK
+                        |__Male->TIDAK
+                     |__lain->TIDAK
+                  |__formerly smoked->bmi
+                     |__overweight->gender
+                        |__Male->Residence_type
+                           |__Rural->YA
+                           |__Urban->TIDAK
+                        |__Female->Residence_type
+                           |__Urban->TIDAK
+                           |__Rural->TIDAK
+                     |__obese->TIDAK
+                     |__healty weight->TIDAK
+                  |__Unknown->bmi
+                     |__obese->Residence_type
+                        |__Rural->YA
+                        |__Urban->TIDAK
+                     |__overweight->TIDAK
+                     |__lain->TIDAK
+                     |__healty weight->TIDAK
+                  |__smokes->TIDAK
+               |__normal->bmi
+                  |__overweight->gender
+                     |__Female->smoking_status
+                        |__smokes->YA
+                        |__never smoked->ever_married
+                           |__Yes->YA
+                           |__No->YA
+                        |__Unknown->Residence_type
+                           |__Urban->YA
+                           |__Rural->TIDAK
+                        |__formerly smoked->TIDAK
+                     |__Male->smoking_status
+                        |__smokes->Residence_type
+                           |__Rural->YA
+                           |__Urban->TIDAK
+                        |__formerly smoked->Residence_type
+                           |__Rural->YA
+                           |__Urban->TIDAK
+                        |__never smoked->TIDAK
+                        |__Unknown->TIDAK
+                  |__lain->smoking_status
+                     |__formerly smoked->YA
+                     |__Unknown->Residence_type
+                        |__Rural->YA
+                        |__Urban->TIDAK
+                     |__never smoked->TIDAK
+                     |__smokes->TIDAK
+                  |__obese->smoking_status
+                     |__formerly smoked->gender
+                        |__Female->Residence_type
+                           |__Urban->TIDAK
+                           |__Rural->YA
+                        |__Male->TIDAK
+                     |__never smoked->TIDAK
+                     |__Unknown->TIDAK
+                     |__smokes->TIDAK
+                  |__healty weight->TIDAK
+         |__Private->bmi
+            |__obese->avg_glucose_level
+               |__tinggi->smoking_status
+                  |__smokes->ever_married
+                     |__Yes->hypertension
+                        |__0->gender
+                           |__Female->TIDAK
+                           |__Male->TIDAK
+                        |__1->gender
+                           |__Male->TIDAK
+                           |__Female->TIDAK
+                     |__No->Residence_type
+                        |__Rural->gender
+                           |__Male->TIDAK
+                        |__Urban->TIDAK
+                  |__formerly smoked->gender
+                     |__Male->hypertension
+                        |__0->Residence_type
+                           |__Rural->TIDAK
+                           |__Urban->TIDAK
+                        |__1->Residence_type
+                           |__Urban->TIDAK
+                           |__Rural->TIDAK
+                     |__Female->hypertension
+                        |__0->Residence_type
+                           |__Urban->TIDAK
+                           |__Rural->TIDAK
+                        |__1->TIDAK
+                  |__never smoked->hypertension
+                     |__1->ever_married
+                        |__Yes->Residence_type
+                           |__Rural->TIDAK
+                           |__Urban->TIDAK
+                        |__No->gender
+                           |__Male->TIDAK
+                           |__Female->YA
+                     |__0->gender
+                        |__Female->Residence_type
+                           |__Urban->TIDAK
+                           |__Rural->TIDAK
+                        |__Male->ever_married
+                           |__Yes->TIDAK
+                           |__No->TIDAK
+                  |__Unknown->gender
+                     |__Female->hypertension
+                        |__0->ever_married
+                           |__Yes->TIDAK
+                           |__No->TIDAK
+                        |__1->TIDAK
+                     |__Male->TIDAK
+               |__normal->smoking_status
+                  |__never smoked->gender
+                     |__Female->ever_married
+                        |__No->Residence_type
+                           |__Urban->YA
+                           |__Rural->TIDAK
+                        |__Yes->hypertension
+                           |__0->TIDAK
+                           |__1->TIDAK
+                     |__Male->TIDAK
+                  |__Unknown->gender
+                     |__Male->ever_married
+                        |__No->hypertension
+                           |__0->TIDAK
+                        |__Yes->hypertension
+                           |__0->TIDAK
+                     |__Female->hypertension
+                        |__1->Residence_type
+                           |__Urban->YA
+                           |__Rural->TIDAK
+                        |__0->TIDAK
+                  |__formerly smoked->hypertension
+                     |__0->gender
+                        |__Male->Residence_type
+                           |__Urban->TIDAK
+                           |__Rural->TIDAK
+                        |__Female->TIDAK
+                     |__1->Residence_type
+                        |__Rural->gender
+                           |__Female->TIDAK
+                           |__Male->TIDAK
+                        |__Urban->TIDAK
+                  |__smokes->gender
+                     |__Male->Residence_type
+                        |__Urban->hypertension
+                           |__0->TIDAK
+                           |__1->TIDAK
+                        |__Rural->TIDAK
+                     |__Female->TIDAK
+            |__overweight->gender
+               |__Male->ever_married
+                  |__Yes->Residence_type
+                     |__Urban->avg_glucose_level
+                        |__tinggi->smoking_status
+                           |__formerly smoked->TIDAK
+                           |__smokes->TIDAK
+                           |__never smoked->TIDAK
+                           |__Unknown->TIDAK
+                        |__normal->smoking_status
+                           |__never smoked->TIDAK
+                           |__Unknown->TIDAK
+                           |__formerly smoked->TIDAK
+                           |__smokes->TIDAK
+                     |__Rural->hypertension
+                        |__0->avg_glucose_level
+                           |__tinggi->TIDAK
+                           |__normal->TIDAK
+                        |__1->TIDAK
+                  |__No->TIDAK
+               |__Female->hypertension
+                  |__1->smoking_status
+                     |__never smoked->avg_glucose_level
+                        |__normal->ever_married
+                           |__Yes->TIDAK
+                        |__tinggi->TIDAK
+                     |__formerly smoked->avg_glucose_level
+                        |__tinggi->ever_married
+                           |__Yes->TIDAK
+                           |__No->TIDAK
+                        |__normal->TIDAK
+                     |__smokes->TIDAK
+                     |__Unknown->TIDAK
+                  |__0->smoking_status
+                     |__smokes->Residence_type
+                        |__Urban->avg_glucose_level
+                           |__tinggi->TIDAK
+                           |__normal->TIDAK
+                        |__Rural->avg_glucose_level
+                           |__normal->TIDAK
+                           |__tinggi->TIDAK
+                     |__formerly smoked->Residence_type
+                        |__Rural->ever_married
+                           |__Yes->TIDAK
+                           |__No->TIDAK
+                        |__Urban->TIDAK
+                     |__never smoked->ever_married
+                        |__Yes->Residence_type
+                           |__Urban->TIDAK
+                           |__Rural->TIDAK
+                        |__No->TIDAK
+                     |__Unknown->avg_glucose_level
+                        |__tinggi->Residence_type
+                           |__Rural->TIDAK
+                           |__Urban->TIDAK
+                        |__normal->TIDAK
+            |__healty weight->gender
+               |__Female->hypertension
+                  |__0->ever_married
+                     |__No->smoking_status
+                        |__never smoked->avg_glucose_level
+                           |__normal->TIDAK
+                           |__tinggi->TIDAK
+                        |__smokes->TIDAK
+                        |__formerly smoked->TIDAK
+                        |__Unknown->TIDAK
+                     |__Yes->smoking_status
+                        |__Unknown->avg_glucose_level
+                           |__normal->TIDAK
+                           |__tinggi->TIDAK
+                        |__formerly smoked->avg_glucose_level
+                           |__tinggi->TIDAK
+                           |__normal->TIDAK
+                        |__never smoked->avg_glucose_level
+                           |__normal->TIDAK
+                           |__tinggi->TIDAK
+                        |__smokes->avg_glucose_level
+                           |__tinggi->TIDAK
+                           |__normal->TIDAK
+                  |__1->smoking_status
+                     |__formerly smoked->Residence_type
+                        |__Rural->YA
+                        |__Urban->TIDAK
+                     |__never smoked->avg_glucose_level
+                        |__normal->ever_married
+                           |__Yes->TIDAK
+                           |__No->TIDAK
+                        |__tinggi->YA
+                     |__smokes->TIDAK
+                     |__Unknown->TIDAK
+               |__Male->smoking_status
+                  |__formerly smoked->Residence_type
+                     |__Rural->avg_glucose_level
+                        |__normal->ever_married
+                           |__Yes->TIDAK
+                           |__No->TIDAK
+                        |__tinggi->TIDAK
+                     |__Urban->TIDAK
+                  |__never smoked->ever_married
+                     |__No->hypertension
+                        |__1->YA
+                        |__0->TIDAK
+                     |__Yes->TIDAK
+                  |__Unknown->avg_glucose_level
+                     |__tinggi->Residence_type
+                        |__Urban->hypertension
+                           |__0->TIDAK
+                        |__Rural->TIDAK
+                     |__normal->TIDAK
+                  |__smokes->TIDAK
+            |__lain->smoking_status
+               |__Unknown->hypertension
+                  |__0->avg_glucose_level
+                     |__normal->gender
+                        |__Female->YA
+                        |__Male->ever_married
+                           |__Yes->TIDAK
+                     |__tinggi->ever_married
+                        |__Yes->gender
+                           |__Male->YA
+                           |__Female->TIDAK
+                        |__No->TIDAK
+                  |__1->TIDAK
+               |__formerly smoked->ever_married
+                  |__Yes->hypertension
+                     |__0->gender
+                        |__Male->avg_glucose_level
+                           |__tinggi->YA
+                           |__normal->TIDAK
+                        |__Female->Residence_type
+                           |__Urban->YA
+                           |__Rural->TIDAK
+                     |__1->avg_glucose_level
+                        |__normal->YA
+                        |__tinggi->TIDAK
+                  |__No->TIDAK
+               |__never smoked->gender
+                  |__Female->hypertension
+                     |__0->Residence_type
+                        |__Urban->ever_married
+                           |__Yes->TIDAK
+                        |__Rural->TIDAK
+                     |__1->TIDAK
+                  |__Male->hypertension
+                     |__1->YA
+                     |__0->TIDAK
+               |__smokes->Residence_type
+                  |__Urban->gender
+                     |__Male->avg_glucose_level
+                        |__normal->YA
+                        |__tinggi->TIDAK
+                     |__Female->TIDAK
+                  |__Rural->TIDAK
+            |__underwight->TIDAK
+         |__Govt_job->bmi
+            |__healty weight->smoking_status
+               |__smokes->avg_glucose_level
+                  |__tinggi->gender
+                     |__Female->Residence_type
+                        |__Rural->hypertension
+                           |__0->TIDAK
+                        |__Urban->TIDAK
+                     |__Male->YA
+                  |__normal->TIDAK
+               |__formerly smoked->ever_married
+                  |__No->YA
+                  |__Yes->TIDAK
+               |__Unknown->Residence_type
+                  |__Rural->avg_glucose_level
+                     |__tinggi->ever_married
+                        |__Yes->gender
+                           |__Female->TIDAK
+                        |__No->TIDAK
+                     |__normal->TIDAK
+                  |__Urban->TIDAK
+               |__never smoked->TIDAK
+            |__overweight->Residence_type
+               |__Urban->ever_married
+                  |__No->smoking_status
+                     |__never smoked->hypertension
+                        |__0->YA
+                        |__1->TIDAK
+                     |__Unknown->YA
+                     |__smokes->avg_glucose_level
+                        |__normal->YA
+                        |__tinggi->TIDAK
+                     |__formerly smoked->TIDAK
+                  |__Yes->smoking_status
+                     |__never smoked->gender
+                        |__Female->avg_glucose_level
+                           |__tinggi->TIDAK
+                           |__normal->TIDAK
+                        |__Male->TIDAK
+                     |__formerly smoked->hypertension
+                        |__1->YA
+                        |__0->avg_glucose_level
+                           |__tinggi->TIDAK
+                           |__normal->TIDAK
+                     |__Unknown->avg_glucose_level
+                        |__tinggi->YA
+                        |__normal->TIDAK
+                     |__smokes->TIDAK
+               |__Rural->avg_glucose_level
+                  |__tinggi->gender
+                     |__Female->smoking_status
+                        |__Unknown->hypertension
+                           |__0->TIDAK
+                           |__1->TIDAK
+                        |__formerly smoked->hypertension
+                           |__0->TIDAK
+                           |__1->TIDAK
+                        |__never smoked->TIDAK
+                     |__Male->TIDAK
+                  |__normal->TIDAK
+            |__lain->gender
+               |__Female->smoking_status
+                  |__never smoked->hypertension
+                     |__0->YA
+                     |__1->TIDAK
+                  |__formerly smoked->YA
+                  |__Unknown->avg_glucose_level
+                     |__normal->hypertension
+                        |__0->ever_married
+                           |__Yes->TIDAK
+                     |__tinggi->YA
+                  |__smokes->TIDAK
+               |__Male->TIDAK
+            |__obese->Residence_type
+               |__Rural->smoking_status
+                  |__formerly smoked->gender
+                     |__Female->avg_glucose_level
+                        |__tinggi->hypertension
+                           |__1->TIDAK
+                           |__0->TIDAK
+                        |__normal->TIDAK
+                     |__Male->TIDAK
+                  |__never smoked->gender
+                     |__Female->hypertension
+                        |__0->avg_glucose_level
+                           |__tinggi->TIDAK
+                           |__normal->TIDAK
+                        |__1->avg_glucose_level
+                           |__normal->TIDAK
+                           |__tinggi->TIDAK
+                     |__Male->TIDAK
+                  |__smokes->gender
+                     |__Male->ever_married
+                        |__Yes->avg_glucose_level
+                           |__normal->TIDAK
+                           |__tinggi->TIDAK
+                        |__No->TIDAK
+                     |__Female->TIDAK
+                  |__Unknown->TIDAK
+               |__Urban->smoking_status
+                  |__never smoked->gender
+                     |__Female->hypertension
+                        |__0->ever_married
+                           |__Yes->TIDAK
+                           |__No->TIDAK
+                        |__1->TIDAK
+                     |__Male->TIDAK
+                  |__Unknown->TIDAK
+                  |__formerly smoked->TIDAK
+                  |__smokes->TIDAK
+            |__underwight->TIDAK
+   |__dewasa->hypertension
+      |__0->smoking_status
+         |__Unknown->gender
+            |__Male->ever_married
+               |__Yes->work_type
+                  |__Private->Residence_type
+                     |__Rural->bmi
+                        |__overweight->avg_glucose_level
+                           |__normal->TIDAK
+                           |__tinggi->TIDAK
+                        |__obese->TIDAK
+                        |__lain->TIDAK
+                        |__healty weight->TIDAK
+                     |__Urban->TIDAK
+                  |__Self-employed->Residence_type
+                     |__Urban->bmi
+                        |__obese->heart_disease
+                           |__0->TIDAK
+                        |__overweight->TIDAK
+                     |__Rural->TIDAK
+                  |__Govt_job->TIDAK
+               |__No->TIDAK
+            |__Female->TIDAK
+         |__formerly smoked->bmi
+            |__obese->gender
+               |__Female->Residence_type
+                  |__Rural->work_type
+                     |__Private->ever_married
+                        |__Yes->avg_glucose_level
+                           |__normal->TIDAK
+                           |__tinggi->TIDAK
+                        |__No->TIDAK
+                     |__Govt_job->TIDAK
+                     |__Self-employed->TIDAK
+                  |__Urban->TIDAK
+               |__Male->TIDAK
+            |__healty weight->work_type
+               |__Self-employed->ever_married
+                  |__No->Residence_type
+                     |__Urban->YA
+                     |__Rural->TIDAK
+                  |__Yes->TIDAK
+               |__Govt_job->TIDAK
+               |__Private->TIDAK
+            |__lain->avg_glucose_level
+               |__tinggi->gender
+                  |__Female->YA
+                  |__Male->TIDAK
+               |__normal->TIDAK
+            |__overweight->TIDAK
+            |__underwight->TIDAK
+         |__never smoked->gender
+            |__Male->ever_married
+               |__Yes->Residence_type
+                  |__Rural->bmi
+                     |__overweight->avg_glucose_level
+                        |__normal->work_type
+                           |__Private->TIDAK
+                           |__Govt_job->TIDAK
+                           |__Self-employed->TIDAK
+                        |__tinggi->TIDAK
+                     |__obese->TIDAK
+                     |__healty weight->TIDAK
+                     |__underwight->TIDAK
+                     |__lain->TIDAK
+                  |__Urban->TIDAK
+               |__No->TIDAK
+            |__Female->Residence_type
+               |__Rural->ever_married
+                  |__Yes->avg_glucose_level
+                     |__tinggi->bmi
+                        |__obese->work_type
+                           |__Private->TIDAK
+                           |__Self-employed->TIDAK
+                        |__overweight->TIDAK
+                        |__lain->TIDAK
+                        |__healty weight->TIDAK
+                     |__normal->TIDAK
+                  |__No->TIDAK
+               |__Urban->bmi
+                  |__overweight->ever_married
+                     |__Yes->work_type
+                        |__Private->avg_glucose_level
+                           |__normal->TIDAK
+                           |__tinggi->TIDAK
+                        |__Govt_job->TIDAK
+                        |__Self-employed->TIDAK
+                     |__No->TIDAK
+                  |__obese->TIDAK
+                  |__healty weight->TIDAK
+                  |__underwight->TIDAK
+                  |__lain->TIDAK
+         |__smokes->work_type
+            |__Private->bmi
+               |__overweight->gender
+                  |__Female->Residence_type
+                     |__Rural->avg_glucose_level
+                        |__normal->ever_married
+                           |__Yes->TIDAK
+                           |__No->TIDAK
+                        |__tinggi->TIDAK
+                     |__Urban->TIDAK
+                  |__Male->TIDAK
+               |__obese->TIDAK
+               |__healty weight->TIDAK
+               |__lain->TIDAK
+               |__underwight->TIDAK
+            |__Self-employed->gender
+               |__Female->bmi
+                  |__overweight->Residence_type
+                     |__Urban->avg_glucose_level
+                        |__normal->heart_disease
+                           |__0->TIDAK
+                        |__tinggi->TIDAK
+                     |__Rural->TIDAK
+                  |__obese->TIDAK
+                  |__healty weight->TIDAK
+               |__Male->TIDAK
+            |__Govt_job->TIDAK
+      |__1->smoking_status
+         |__smokes->Residence_type
+            |__Rural->bmi
+               |__obese->gender
+                  |__Female->avg_glucose_level
+                     |__normal->YA
+                     |__tinggi->TIDAK
+                  |__Male->TIDAK
+               |__lain->TIDAK
+            |__Urban->TIDAK
+         |__never smoked->TIDAK
+         |__Unknown->TIDAK
+         |__formerly smoked->TIDAK
+   |__anak->bmi
+      |__lain->gender
+         |__Female->avg_glucose_level
+            |__rendah->hypertension
+               |__0->heart_disease
+                  |__0->ever_married
+                     |__No->work_type
+                        |__children->Residence_type
+                           |__Urban->TIDAK
+            |__normal->TIDAK
+            |__tinggi->TIDAK
+         |__Male->TIDAK
+      |__underwight->TIDAK
+      |__healty weight->TIDAK
+      |__overweight->TIDAK
+      |__obese->TIDAK
+   |__remaja->gender
+      |__Female->hypertension
+         |__0->heart_disease
+            |__0->ever_married
+               |__No->work_type
+                  |__children->bmi
+                     |__obese->Residence_type
+                        |__Rural->avg_glucose_level
+                           |__normal->TIDAK
+                           |__tinggi->TIDAK
+                        |__Urban->TIDAK
+                     |__healty weight->TIDAK
+                     |__overweight->TIDAK
+                     |__underwight->TIDAK
+                     |__lain->TIDAK
+                  |__Private->TIDAK
+                  |__Self-employed->TIDAK
+                  |__Govt_job->TIDAK
+                  |__Never_worked->TIDAK
+               |__Yes->TIDAK
+         |__1->TIDAK
+      |__Male->TIDAK
