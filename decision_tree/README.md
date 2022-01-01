@@ -23,7 +23,9 @@ thanks to https://www.kaggle.com/fedesoriano/stroke-prediction-dataset for the d
 ![Data Classified](image/data_clf.png)
 
 > `age` (anak, remaka, dewasa, lansia) , based on the classification of the Indonesian Ministry of Health
+>
 > `avg_glucose_level`, based on the internet and my friends who study majoring in medicine
+>
 > `bmi`, based on the internet
 
 4. `decision_tree.py`, main program, __!important__ you have to make sure that your first column is id/name/unique/'any unique key' and last column is result(in this case is stroke)
