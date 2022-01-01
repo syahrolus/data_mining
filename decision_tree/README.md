@@ -11,7 +11,7 @@ git clone https://github.com/syahrolus/data_mining.git
 
 thanks to https://www.kaggle.com/fedesoriano/stroke-prediction-dataset for the dataset
 
-description:
+## description:
 
 1. `healthcare-dataset-stroke-data.csv` & `healthcare-dataset-stroke-data.xlsx`, dataset (both are same, just differ in extension)
 2. `klasifikasi.py`, you must change according to your need for better proccess
@@ -21,7 +21,7 @@ description:
 6. `hasil_prediksi.xlsx`, result prediction
 7. `tmp.xlsx`, just a temporary need, you can delete it
 
-running:
+## running:
 
 1. first, you have to make sure to classify your attributes first (you can use `klasifikasi.py` and change them according to your needs), and change NaN (if any) to `other` attributes or other names manually.
 2. ```python3 klasifikasi.py``` 
