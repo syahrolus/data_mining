@@ -14,7 +14,13 @@ thanks to https://www.kaggle.com/fedesoriano/stroke-prediction-dataset for the d
 ## description:
 
 1. `healthcare-dataset-stroke-data.csv` & `healthcare-dataset-stroke-data.xlsx`, dataset (both are same, just differ in extension)
+
+![Data](image/data.png)
+
 2. `klasifikasi.py`, you must change according to your need for better proccess
+
+![Data Classified](image/data_clf.png)
+
 3. `stroke_classified.xlsx`, result after running the `klasifikasi.py` , This file will be used for the main program
 4. `decision_tree.py`, main program, __!important__ you have to make sure that your first column is id/name/unique/'any unique key' and last column is result(in this case is stroke)
 5. `decision_tree.txt`, decisions after running the main program, just to illustrate for better understanding
