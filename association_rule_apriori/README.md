@@ -19,7 +19,7 @@ thanks to https://www.kaggle.com/ahmtcnbs/datasets-for-appiori for the dataset
 ![Data](image/data.png)
 
 2. `ar_apriori.py`, main program
-3. `hasil_akhir.csv`, result prediction
+3. `hasil_akhir.csv`, result
 
 ## running:
 
